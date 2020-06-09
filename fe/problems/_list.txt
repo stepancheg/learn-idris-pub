@@ -1,0 +1,20 @@
+# Intro
+refl_self       Prove that value is equal to itself
+# False implies anything
+zero_one_two    0 = 1 => 0 = 2
+m_eq_n          0 = 1 => m = n
+x_eq_y          0 = 1 => x = y
+# Peano arithmetic
+zero_plus       0 + n = n
+plus_zero       n + 0 = n
+plus_assoc      (a + b) + c = a + (b + c)
+plus_comm       a + b = b + a
+# Lists
+list_take       Implement List take
+vect_repeat     repeat : (n : Nat) -> a -> Vect n a
+list_length_add length (xs ++ ys) = length xs + length ys
+map_pres_len    Map operation preserves list length
+# Decidability
+dec_eq_nat      Check natural numbers are equal
+list_contains   Check that a list contains an element
+-- is_sorted http://localhost:3000/play?id=8wlL5Pn
