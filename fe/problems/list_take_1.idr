@@ -1,4 +1,4 @@
-my_take : Nat -> List a -> List a
+total my_take : Nat -> List a -> List a
 
 -- [SOLUTION]
 
