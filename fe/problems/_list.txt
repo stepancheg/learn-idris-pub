@@ -4,6 +4,9 @@ refl_self       Prove that value is equal to itself
 --zero_one_two    0 = 1 => 0 = 2
 --m_eq_n          0 = 1 => m = n
 --x_eq_y          0 = 1 => x = y
+# Logic
+lem_eq_to_dne     Equivalence between LEM and DNE
+triple_negation   Triple negation "elimination"
 # Peano arithmetic
 zero_plus       0 + n = n
 plus_zero       n + 0 = n
